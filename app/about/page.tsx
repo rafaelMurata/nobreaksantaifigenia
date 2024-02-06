@@ -3,6 +3,7 @@ import React from 'react';
 
 const AboutPage: React.FC = () => {
     return (
+        <div className="flex justify-center items-center bg-white flex-grow pt-32">
         <div className="container mx-auto py-8">
             <h1 className="text-3xl font-bold mb-4">Sobre a Nobreak Santa Ifigênia</h1>
             <p>Somos especializados em equipamentos para proteção de energia. Possuímos uma loja física localizada na Rua Aurora, 277 - 3º Andar.</p>
@@ -18,6 +19,7 @@ const AboutPage: React.FC = () => {
             <p>Também consulte nossos valores para entrega dentro da cidade de São Paulo e instalação de equipamentos.</p>
             <p>Não compre o produto errado. Para cada utilização, existe um produto ideal. Nem sempre o mais caro é o melhor, e nem o mais barato seja a solução.</p>
             <p>Nobreaks e estabilizadores são equipamentos para proteção e não para causar mais problemas. Tire suas dúvidas antes de comprar.</p>
+        </div>
         </div>
     );
 };

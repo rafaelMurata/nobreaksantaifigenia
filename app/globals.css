@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 :root {
   --navbar-height: 60px; /* Actual navbar height */
   --footer-height: 100px; /* Actual footer height */
@@ -27,4 +28,37 @@ body {
 
 main {
   flex: 1;
+}
+
+slider-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+slick-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+home-section-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px;
+}
+carousel-container {
+  flex: 1;
+  margin-right: 20px;
+}
+text-container {
+  flex: 1; 
+  padding: 20px; 
+}
+
+.slick-track {
+  padding: 3rem;
+    margin: 0 auto;
 }

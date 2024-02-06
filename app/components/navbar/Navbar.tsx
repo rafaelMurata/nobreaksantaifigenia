@@ -20,11 +20,11 @@ const Navbar: React.FC = () => {
                     </div>
                     <div className={`w-full block flex-grow lg:flex lg:items-center lg:w-auto ${isOpen ? 'block' : 'hidden'} gap-6 lg:justify-end`}>
                         <MenuItem label="Baterias Nobreak" onClick={() => router.push('/batterynobreak')} />
-                        <MenuItem label="Condicionador" onClick={() => router.push('/handbook')} />
-                        <MenuItem label="Estabilizador" onClick={() => router.push('/handbook')} />
-                        <MenuItem label="Filtro de linha" onClick={() => router.push('/handbook')} />
-                        <MenuItem label="Nobreak" onClick={() => router.push('/handbook')} />
-                        <MenuItem label="Transformador" onClick={() => router.push('/handbook')} />
+                        <MenuItem label="Condicionador" onClick={() => router.push('/conditioner')} />
+                        <MenuItem label="Estabilizador" onClick={() => router.push('/stabilizer')} />
+                        <MenuItem label="Filtro de linha" onClick={() => router.push('/linefilter')} />
+                        <MenuItem label="Nobreak" onClick={() => router.push('/nobreak')} />
+                        <MenuItem label="Transformador" onClick={() => router.push('/transformer')} />
                         <MenuItem label="Sobre" onClick={() => router.push('/about')} />
                     </div>
                     <div className="md:hidden flex gap-3">
